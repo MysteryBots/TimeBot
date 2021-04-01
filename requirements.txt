@@ -1,0 +1,6 @@
+pyrogram
+TgCrypto
+pyttsx3
+gTTS
+config
+pytz

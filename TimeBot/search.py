@@ -10,7 +10,8 @@ async def search(timebot, msg):
         location = (msg.command[1]).capitalize()
         tz = []
         for line in pytz.all_timezones:
-            words = line.split("/")
+            line1 = line.split("/")
+            words = line + line1
             if location in words:
                 tz.append(line)
         if len(tz) > 0:
